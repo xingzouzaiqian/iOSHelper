@@ -36,6 +36,7 @@
 		1F0EDF5F185A0DA100F14586 /* UITextView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDF4C185A0DA100F14586 /* UITextView+Helper.m */; };
 		1F0EDF60185A0DA100F14586 /* UIWebView+RemoveShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDF4E185A0DA100F14586 /* UIWebView+RemoveShadow.m */; };
 		1F0EDF61185A0DA100F14586 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EDF50185A0DA100F14586 /* Utility.m */; };
+		357DA7CE18727627004359D6 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DA7CD18727627004359D6 /* UIImage+animatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,6 @@
 		1F0EDEE51859F08500F14586 /* iOSHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSHelperTests-Info.plist"; sourceTree = "<group>"; };
 		1F0EDEE71859F08500F14586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F0EDEE91859F08500F14586 /* iOSHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSHelperTests.m; sourceTree = "<group>"; };
-		1F0EDF2C185A0DA100F14586 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		1F0EDF2D185A0DA100F14586 /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
 		1F0EDF2E185A0DA100F14586 /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
 		1F0EDF2F185A0DA100F14586 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
@@ -102,6 +102,8 @@
 		1F0EDF4E185A0DA100F14586 /* UIWebView+RemoveShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RemoveShadow.m"; sourceTree = "<group>"; };
 		1F0EDF4F185A0DA100F14586 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		1F0EDF50185A0DA100F14586 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		357DA7CC18727627004359D6 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		357DA7CD18727627004359D6 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +204,6 @@
 		1F0EDF2B185A0DA100F14586 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				1F0EDF2C185A0DA100F14586 /* Const.h */,
 				1F0EDF32185A0DA100F14586 /* HolyHelper.h */,
 				1F0EDF2D185A0DA100F14586 /* DES3Util.h */,
 				1F0EDF2E185A0DA100F14586 /* DES3Util.m */,
@@ -233,6 +234,8 @@
 				1F0EDF48185A0DA100F14586 /* UIDevice+IdentifierAddition.m */,
 				1F0EDF49185A0DA100F14586 /* UIImage+Helper.h */,
 				1F0EDF4A185A0DA100F14586 /* UIImage+Helper.m */,
+				357DA7CC18727627004359D6 /* UIImage+animatedGIF.h */,
+				357DA7CD18727627004359D6 /* UIImage+animatedGIF.m */,
 				1F0EDF4B185A0DA100F14586 /* UITextView+Helper.h */,
 				1F0EDF4C185A0DA100F14586 /* UITextView+Helper.m */,
 				1F0EDF4D185A0DA100F14586 /* UIWebView+RemoveShadow.h */,
@@ -351,6 +354,7 @@
 				1F0EDF52185A0DA100F14586 /* GTMBase64.m in Sources */,
 				1F0EDF53185A0DA100F14586 /* NSArray+Helper.m in Sources */,
 				1F0EDF55185A0DA100F14586 /* NSDate+Helper.m in Sources */,
+				357DA7CE18727627004359D6 /* UIImage+animatedGIF.m in Sources */,
 				1F0EDF54185A0DA100F14586 /* NSData+Base64.m in Sources */,
 				1F0EDF5F185A0DA100F14586 /* UITextView+Helper.m in Sources */,
 				1F0EDF5C185A0DA100F14586 /* UIColor+Helper.m in Sources */,
@@ -557,6 +561,7 @@
 				1F0EDEEF1859F08500F14586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F0EDEF01859F08500F14586 /* Build configuration list for PBXNativeTarget "iOSHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +570,7 @@
 				1F0EDEF21859F08500F14586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

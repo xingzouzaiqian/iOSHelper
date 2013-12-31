@@ -13,6 +13,7 @@
 #import "NSArray+Helper.h"
 #import "NSDictionary+Helper.h"
 #import "UIImage+Helper.h"
+#import "UIImage+animatedGIF.h"
 #import "UIDevice+IdentifierAddition.h"
 #import "PersistenceHelper.h"
 #import "NSDate+Helper.h"

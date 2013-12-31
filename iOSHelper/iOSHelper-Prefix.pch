@@ -15,5 +15,4 @@
     #import <Foundation/Foundation.h>
 #endif
 
-#import "Const.h"
 #import "HolyHelper.h"
